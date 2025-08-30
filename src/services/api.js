@@ -19,7 +19,6 @@ export const getRecipeDetails = async (id) => {
 };
 
 export const getRandomRecipes = async (count = 12) => {
-  const recipes = [];
   const promises = [];
 
   for (let i = 0; i < count; i++) {
